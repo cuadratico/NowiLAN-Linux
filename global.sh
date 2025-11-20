@@ -18,7 +18,7 @@ line
 
 while true; do
 if [ $(ifconfig | grep -oE "wlan0") == "" ]; then
-echo -e "No tienes la interfaz de red WlanThe Wlan0 network interface is not operational\n"
+echo -e "The Wlan0 network interface is not operational\n"
 else
 echo -e "Operational Wlan0 network interface\n"
 break
